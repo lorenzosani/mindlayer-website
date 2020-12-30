@@ -50,8 +50,9 @@ const App = () => {
           fontSize: "32px",
           letterSpacing: "-2px",
           opacity: "0.66",
-          cursor: "default"
+          cursor: "pointer"
         }}
+        onClick={() => setShowForm(false)}
       >
         Mindlayer
       </p>
@@ -99,9 +100,16 @@ const App = () => {
             <Button onClick={() => setShowForm(true)} color={"#1731B1"}>
               Request a demo
             </Button>
-            <Button onClick={() => {}} color={"rgba(0,0,0)"}>
-              Keep in touch
-            </Button>
+            <a
+              href="http://eepurl.com/hmVFNz"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+              rel="noreferrer"
+            >
+              <Button onClick={() => {}} color={"rgba(0,0,0)"}>
+                Keep in touch
+              </Button>
+            </a>
           </div>
         </div>
       )}
