@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Button = ({ onClick, color, children }) => {
+export const Button = ({ onClick, color, children, width }) => {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -11,8 +11,8 @@ export const Button = ({ onClick, color, children }) => {
         color: "#f7f7f7",
         fontFamily: "Overpass, sens-serif",
         fontWeight: "bold",
-        width: "160px",
-        margin: "50px 10px",
+        width: width ?? "160px",
+        margin: "20px 10px",
         borderRadius: "7px",
         cursor: "pointer",
         zIndex: 200,
