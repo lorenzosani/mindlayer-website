@@ -83,11 +83,12 @@ const App = () => {
                 color: "#1731B1"
               }}
             >
-              brain data analysis
+              human data analysis
             </span>
           </p>
           <p style={{ fontFamily: "Open Sans", margin: "16px 25px" }}>
-            Mindlayer makes it super-easy to analyse complex EEG data using AI.
+            Mindlayer makes it super-easy to analyse complex biomedical data
+            using AI.
             <br />
             All without coding. In a collaborative way.
           </p>
